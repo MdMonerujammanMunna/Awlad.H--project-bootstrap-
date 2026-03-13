@@ -34,3 +34,65 @@ nav {
 .bannerSection {
     padding: 45px 0;
 }
+
+.cardSection {
+    margin-bottom: 100px;
+}
+
+.Htmlcard {
+    background-color: #FF4C1E10;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.CSScard {
+    background-color: #004CE810;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.JScard {
+    background-color: #FFDF0010;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.cardHTML {
+    margin-top: 24px;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.cardp {
+    margin-bottom: 24px;
+}
+
+.Htmlankor {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.heder-Text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.heder-Text h3 {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.heder-Text p {
+    max-width: 850px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
