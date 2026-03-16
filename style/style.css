@@ -97,7 +97,56 @@ nav {
     justify-content: center;
 }
 
+.support-container {
+    color: white;
+    background: url(../assets/handshake.png);
+    border-radius: 16px;
+    padding: 65px 48px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.support-container h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.support-container p {
+    max-width: 600px;
+    opacity: 70%;
+    font-weight: 200;
+}
+
+.support-container input footer {
+    margin-top: 80px;
+    padding: 40px 0;
+    background-color: #0D132110;
+}
+
+.text-input {
+    outline: none;
+    border: none;
+    padding: 20px;
+    width: 550px;
+    border-radius: 8px;
+}
+
+.submit-input {
+    outline: none;
+    border: none;
+    padding: 20px 25px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
 footer {
+    margin-top: 80px;
     padding: 40px 0;
     background-color: #0D132105;
 }
