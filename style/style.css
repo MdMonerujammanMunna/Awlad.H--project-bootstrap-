@@ -97,6 +97,20 @@ nav {
     justify-content: center;
 }
 
+.YouTube-Video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    margin-bottom: 150px;
+}
+
+.YouTube-Video iframe {
+    border-radius: 16px;
+    padding: 32px;
+    border: 1px solid #0D132120;
+}
+
 .support-container {
     margin-top: 50px;
     color: white;
@@ -181,6 +195,11 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+    .YouTube-Video iframe {
+        width: 1070px;
+        height: 550px
+    }
+
     footer {
         display: flex;
         align-items: center;
