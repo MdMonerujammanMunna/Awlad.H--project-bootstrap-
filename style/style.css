@@ -35,6 +35,73 @@ nav {
     padding: 45px 0;
 }
 
+.web-container {
+    padding: 80px;
+    background-color: #0D132110;
+    margin-bottom: 90px;
+}
+
+.first-continet {
+    background-color: white;
+    padding: 60px 50px;
+    margin-bottom: 24px;
+}
+
+.first-continet h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D132170;
+    margin-bottom: 16px;
+}
+
+.first-continet p {
+    max-width: 450px;
+    color: #0D1321;
+    margin-bottom: 32px;
+}
+
+.first-continet button {
+    padding: 12px 20px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #0D1321;
+    border-radius: 5px;
+}
+
+
+.mid-continet {
+    background-color: white;
+    padding: 60px 50px;
+    margin-bottom: 24px;
+}
+
+.mid-continet h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D132170;
+    margin-bottom: 16px;
+}
+
+.mid-continet p {
+    max-width: 450px;
+    color: #0D1321;
+    margin-bottom: 32px;
+}
+
+.mid-continet button {
+    padding: 12px 20px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #0D1321;
+    border-radius: 5px;
+}
+
+
+
 .cardSection {
     margin-bottom: 100px;
 }
@@ -194,7 +261,35 @@ footer {
     font-weight: 600;
 }
 
+@media screen and (max-width:768px) {
+
+    .first-continet,
+    .mid-continet {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 50px;
+    }
+}
+
 @media screen and (min-width: 768px) {
+    .mid-continet {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 100px;
+        flex-direction: row-reverse;
+    }
+
+    .first-continet {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 100px;
+
+    }
+
     .YouTube-Video iframe {
         width: 1070px;
         height: 550px
